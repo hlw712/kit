@@ -5,7 +5,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by hlw on 2017/8/17.
+ * 基础文件操作工具类
+ *
+ * @author huanglw
+ * @date 2017/8/16
  */
 public class FileUtil {
 
@@ -15,7 +18,7 @@ public class FileUtil {
      * @param path 文件所在路径
      * @return
      */
-    public List<File> readFiles(String path) {
+    public static List<File> readFiles(String path) {
 
         List<File> list = new LinkedList<File>();
         File file = new File(path);
