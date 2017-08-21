@@ -1,4 +1,6 @@
-package com.zl.toolkit.file;
+package com.zl.toolkit.file.impl;
+
+import com.zl.toolkit.file.AbstractFileService;
 
 import java.io.*;
 import java.util.LinkedList;

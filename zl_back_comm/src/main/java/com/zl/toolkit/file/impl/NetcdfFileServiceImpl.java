@@ -1,5 +1,6 @@
-package com.zl.toolkit.file;
+package com.zl.toolkit.file.impl;
 
+import com.zl.toolkit.file.AbstractFileService;
 import ucar.ma2.Array;
 import ucar.nc2.NetcdfFile;
 import ucar.nc2.Variable;

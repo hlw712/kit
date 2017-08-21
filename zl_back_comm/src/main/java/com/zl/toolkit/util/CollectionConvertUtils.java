@@ -11,12 +11,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 业务对象转换工具类
+ * 集合对象转换工具类
  *
  * @author huanglw
  * @date 2017/8/16
  */
-public class BizObjectConvertUtil {
+public class CollectionConvertUtils {
 
     /**
      * 把Map（java.util.Map）对象转换为实体对象
