@@ -20,6 +20,14 @@
             <scope>test</scope>
         </dependency>
 
+
+        <!-- commons -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.6</version>
+        </dependency>
+
         <!-- *.nc file manger-->
         <dependency>
             <groupId>edu.ucar</groupId>
@@ -58,6 +66,21 @@
             <artifactId>JRI</artifactId>
             <version>${rjava.version}</version>
         </dependency>
+
+        <!--=================================logs====================-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+
     </dependencies>
 
 

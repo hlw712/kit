@@ -16,6 +16,15 @@ public class ObjectUtils {
         return UUID.randomUUID().toString();
     }
 
+    /***
+     * 得到uuid
+     *
+     * @return
+     */
+    public static String getUUIDReplace() {
+        return getUUID().replace("-", "");
+    }
+
     public static boolean isNull(Object obj) {
         return (null == obj);
     }

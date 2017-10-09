@@ -11,8 +11,10 @@ import java.util.List;
  */
 public class PageResponse<T> {
 
-    private Page page;  // 分页信息
-    private List<T> rows;   // 数据行
+    // 分页信息
+    private Page page;
+    // 数组数据
+    private List<T> rows;
 
     public PageResponse() {
     }
